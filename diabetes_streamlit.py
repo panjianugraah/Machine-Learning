@@ -4,10 +4,8 @@ import pickle
 import os
 
 #Load model
-model_directory = r'C:\Users\bravo\Downloads\Documents\Tugas_B_11843'
-
 #gunakan os.path.join() untuk menggabungkan direktori dan file model pickle 
-model_path = os.path.join(model_directory, 'rf_diabetes_model.pkl')
+model_path = 'rf_diabetes_model.pkl'
 
 #periksa apakah file ada di direktori yang ditentukan
 if os.path.exists(model_path):
